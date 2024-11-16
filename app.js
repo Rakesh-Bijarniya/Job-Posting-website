@@ -30,8 +30,8 @@ module.exports = { hashPassword };
 const db = new pg.Client({
   user: "postgres",
   host: "localhost",
-  database: "dbms_project",
-  password: "Shiva#$098", // add your password
+  database: "DBMS_Project",
+  password: "postgres", // add your password
   port: 4000,
 });
 db.connect();
